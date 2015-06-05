@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title>Michael Smith &ndash; Curriculum vitae</title>
     <style media="screen">
+      body {
+        font-family: monospace;
+        font-size: 1.2em;
+      }
       .TextWrapLeft {
         clear: right;
         float: left;
@@ -15,20 +19,41 @@
     </style>
   </head>
   <body>
+    <header style="text-align: right;">
+      English version
+      &#124;
+      <a href="#">Dutch version</a>
+      &#124;
+      <a href="#" onClick="window.print();">Print this document</a>
+    </header>
     <img src="michael_smith.jpg" alt="Michael Smith" class="TextWrapLeft"/>
     <h1>Michael Smith &ndash; Curriculum vitae</h1>
 
     <h2>Summary</h2>
     <p>
       Independent IT Consultant.<br>
-      Programmer, systems analyst and administrator with a strong background in IT security.
+      Programmer, systems analyst and administrator with a strong background in IT security.<br>
+      20 years of IT experience in multiple fields.
+    </p>
+
+    <p>
+      Jump to:
+      <a href="#experience">Experience</a>
+      &#124;
+      <a href="#skills">Skills</a>
+      &#124;
+      <a href="#education">Education</a>
+      &#124;
+      <a href="#hobbies">Hobbies</a>
+      &#124;
+      <a href="#contact">Contact information</a>
     </p>
 
     <div class="clr"></div>
 
     <hr>
 
-    <h2>Experience</h2>
+    <h2 id="experience">Experience</h2>
     <h3>Security Engineer at Scanit Middle East</h3>
     <em>
       Dubai, United Arab Emirates.
@@ -39,10 +64,11 @@
       I was in charge of internal project such as the planning, implementation and configuration of a secure, corporate VPN system and a Samba File server integration.
     </p>
 
-    <h3>System Administrator and in-house Software Developer at The Content Factory</h3>
+    <h3>System Administrator and Software Developer at The Content Factory</h3>
     <em>
       Dubai, United Arab Emirates. June 2005 &ndash; August 2006
-    </em>
+    </em><br>
+    <a href="http://www.tcf-me.com" target="_blank">http://www.tcf-me.com</a>
     <p>
       Duties included system administration, infrastructure planning and IT support for the company's employees and clients.<br>
       I built a custom content management system for the company from scratch. First in PHP, then the web application was ported to Ruby on Rails.
@@ -58,20 +84,22 @@
       Kosmo Systems ceased operations in the region in November 2006. The entire team was forced to find work elsewhere.
     </p>
 
-    <h3>IT Consultant at Unlimited IT</h3>
+    <h3>IT Consultant at UnlimITed</h3>
     <em>
       Dubai, United Arab Emirates.
       November 2006 &ndash; January 2007
-    </em>
+    </em><br>
+    <a href="http://www.unlimited-it.ae" target="_blank">http://www.unlimited-it.ae</a>
     <p>
-      At Unlimited IT I performed periodic on site IT support visits for large clients mainly in the construction industry. My duties included composing periodic systems' status reports and on call remote IT incident handling.
+      At UnlimITed I performed periodic on site IT support visits for large clients mainly in the construction industry. My duties included composing periodic systems' status reports, on call and remote IT incident handling.
     </p>
 
     <h3>IT Manager at Action Impact LLC</h3>
     <em>
       Dubai, United Arab Emirates.
       February 2007 &ndash; March 2008
-    </em>
+    </em><br>
+    <a href="http://www.actionimpact.com" target="_blank">http://www.actionimpact.com</a>
     <p>
       At Action Impact I handled the day to day management of IT operations such as incident handling, procurement of new hardware and software. I lead the expansion and move of the existing IT infrastructure from 20 users to 100+ users.
     </p>
@@ -93,7 +121,7 @@
     </em>
     <p>
       When I moved to Indonesia I set myself up with a self-employed business license registered in Jakarta. Under this license I performed IT consultancy, hosting and software development services for major clients in the area including The German Centre for Industry and Trade, Tebodin, Coseinc (Singapore) and Vincent Sheppard.<br>
-      For several of these projects I had to become proficient in Bahasa Indonesia, the local language.
+      For several of these projects I had to become proficient in the local language, Bahasa Indonesia.
     </p>
 
     <h3>Security Engineer and Software Developer at Bellua Asia Pacific</h3>
@@ -103,7 +131,8 @@
     </em>
     <p>
       During my time as a self-employed IT consultant in Indonesia I took on a part time job as an IT security engineer and sofware developer at Bellua Asia Pacific, a respected IT security firm in the Asia Pacific region.<br>
-      At Bellua I performed pentests, composed reports presented to clients and developed in-house software using Python, Django and Google Web Toolkit.
+      At Bellua I performed pentests, composed reports presented to clients and developed in-house software using Python, Django and Google Web Toolkit.<br>
+      I attended and volunteered at several IT security conferences in the region such as <abbr title="Hack In The Box">HITB</abbr> Malaysia.
     </p>
 
     <h3>Co-founder and CTO at The Advisable Company</h3>
@@ -115,35 +144,39 @@
       In December 2011 I met James Richards in Jakarta. He hired me to build an idea he was working on: a marketplace for lawyers. A few months later we expanded on his initial idea and co-founded The Advisable Company, a New York based startup. James took on the role of CEO and I became CTO. For over a year I was the sole developer of the Ruby on Rails based web application.<br>
       In february 2013 I moved to New York and a few weeks later we moved the company to San Francisco.<br>
       After that we applied and got accepted to Y Combinator, a reputable Silicon Valley based incubator.<br>
-      We followed the program and pivoted our idea and company a few weeks before our first investors pitch at demo day. We became Teleborder, Inc.
+      We followed the program and pivoted our idea and company a few weeks before our first investors pitch at Demo Day. We became Teleborder, Inc.
     </p>
 
     <h3>Co-founder and CTO at Teleborder, Inc.</h3>
     <em>
       San Francisco, United States.
       July 2013 &ndash; August 2014
-    </em>
+    </em><br>
+    <a href="http://www.teleborder.com" target="_blank">http://www.teleborder.com</a>
+
     <p>
       Teleborder, Inc. is a pivoted version of Advisable. Teleborder aims to make hiring overseas talent for US based companies easy through an online platform.<br>
       In July 2014 Teleborder announced a seed round of slightly under $1 million led by Khosla Ventures with participation from Indonesia’s East Ventures.<br>
-      At Teleborder I wrote the initial web application from scratch using the Ruby on Rails framework and Heroku hosting. I then proceeded to build a development team. I wrote documentation for best code writing practices and correct use of collaboration tools and source code management software such as git.<br>
-      In December 2013 I moved back to Belgium and continued development of Teleborder with a team lead from Antwerp.<br>
-      In August 2014 I resigned my position as CTO of Teleborder. I continue to be acknowledged as a co-founder and shareholder.
+      At Teleborder I wrote the initial web application from scratch using the Ruby on Rails framework and Heroku hosting. I then proceeded to build a development team. I wrote documentation on best code writing practices and correct use of collaboration tools and source code management software such as git.<br>
+      In December 2013 I moved back to Belgium and continued development of Teleborder with a team based in Antwerp.<br>
+      In August 2014 I resigned my position as CTO of Teleborder. I continue to be acknowledged as a co-founder and major shareholder.
     </p>
 
     <h3>Self-employed IT Consultant</h3>
     <em>
       Antwerp, Belgium.
       September 2014 &ndash; Present
-    </em>
+    </em><br>
+    <a href="http://michaelsmith.be" target="_blank">http://michaelsmith.be</a>
+
     <p>
       As a self-employed IT consultant I have worked or I am working on the following projects:
     </p>
-    <h4>VH Technics: Web based customer, installation and maintenance management application</h4>
+    <h4>VH Technics: Web based CRM, installation and maintenance management application</h4>
     <p>
-      VH Technics, a reputable heating and sanitation installation and maintenance company needed an application for technicians to compose on site maintenance reports.<br>
-      I have built a Ruby on Rails based web application that can be used in conjunction with tablet devices and QR codes to identify installations on VH Technics' clients' premises, to compose maintenance reports.<br>
-      These maintenance reports can then be reviewed by a manager who can approve them and send a status report to the client.<br>
+      VH Technics, a reputable heating and sanitation installation and maintenance company needed a custom application for technicians to compose on site maintenance reports.<br>
+      I have built a Ruby on Rails based web application that allows a technician to identify installations at the clients' premises and compose maintenance reports using a tablet and QR codes.<br>
+      These maintenance reports can subsequently be reviewed by a manager who can approve them and send a status report to the client.<br>
       I continue to host and maintain this application.
     </p>
 
@@ -154,16 +187,120 @@
 
     <h4>E-mail and website hosting</h4>
     <p>
-      For myself and several small to medium sized clients I host and maintain an email hosting infrastructure built with Postfix, Dovecot and Spamassassin.<br>
-      During installation and configuration, best security and anti-spam practices such as SPF and DKIM have been applied.<br>
+      For myself and several small to medium sized clients I host and maintain an email hosting infrastructure built with open source software including Postfix, Dovecot and Spamassassin.<br>
+      During installation and configuration, best security and anti-spam practices such as SPF and DKIM were applied.<br>
       In addition I host and maintain several static and dynamic websites on servers using LAMP stacks.
     </p>
+    Some of my work includes:
+    <ul>
+      <li><a href="http://tsjirp.be" target="_blank">Tsjirp</a></li>
+      <li><a href="http://nataliebuys.com" target="_blank">Natalie Buys &ndash; Fotografe</a></li>
+
+    </ul>
 
     <hr>
 
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
+    <h3>Programming</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      I have 20 years of programming experience. The first language I mastered was BASIC. With the release of Windows 95 I quickly moved on to Visual Basic. Later followed C and C++.<br>
+      After a quick detour via AT&amp;T Assembly, I learned several scripting languages such as Python, Perl, PHP and later on Ruby.<br>
+      I am skilled in HTML and JavaScript, but not good at CSS and web design in general. Fortunately my knowledge of several web front-ends such as Twitter Bootstrap, Skeleton and Wordpress make up for that.<br>
+      I write unit and integration tests for my code and <a href="https://github.com/michaelshmitty" target="_blank">I use git for version control</a>.
     </p>
+
+    <em>Known languages, in no particular order, include:</em>
+    <ul>
+      <li>C, C++</li>
+      <li>AT&amp;T Assembly</li>
+      <li>BASIC, Visual Basic</li>
+      <li>Perl, Python, Ruby</li>
+      <li>HTML, PHP, JavaScript and Coffeescript</li>
+    </ul>
+
+    <em>Known web frameworks, in no particular order, include:</em>
+    <ul>
+      <li>Ruby on Rails</li>
+      <li>Django</li>
+      <li>Wordpress, WooCommerce</li>
+      <li>Twitter Boostrap, Skeleton</li>
+      <li>jQuery, jQuery UI</li>
+      <li>Node.js</li>
+      <li>Joomla</li>
+    </ul>
+
+    <h3>System Administration</h3>
+    <p>
+      I have 20 years of system administration experience. I started out with MS-DOS, Windows and Windows NT. Then I learned about Linux, BSD and Mac OS X.<br>
+      More recently I have gained significant experience with cloud based services such as Amazon Web Services, Heroku and DevOps frameworks such as Puppet and Chef.<br>
+      I maintain my own e-mail, web hosting and Ruby on Rails application server infrastructure.
+    </p>
+
+    <em>Known operating systems, in no particular order, include:</em>
+    <ul>
+      <li>MS-DOS, Windows and Windows Server</li>
+      <li>Linux: Debian, Ubuntu, ...</li>
+      <li>BSD: OpenBSD, FreeBSD, NetBSD</li>
+      <li>UNIX: SunOS</li>
+      <li>Mac OS X</li>
+    </ul>
+
+    <em>Known cloud services, in no particular order, include:</em>
+    <ul>
+      <li><a href="https://www.linode.com/" target="_blank">Linode</a></li>
+      <li><a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a></li>
+      <li><a href="https://www.heroku.com/" target="_blank">Heroku</a></li>
+    </ul>
+
+    <h3>Spoken languages</h3>
+    <ul>
+      <li>Dutch: <em>Native speaker</em></li>
+      <li>English: <em>Full professional proficiency</em></li>
+      <li>French: <em>Full professional proficiency</em></li>
+      <li>Indonesian: <em>Full professional proficiency</em></li>
+      <li>Russian: <em>Limited working proficiency</em></li>
+      <li>German: <em>Elementary proficiency</em></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="education">Education</h2>
+    <p>
+      I was an average student. I gained very little IT related knowledge in school, nearly all my skills come from self-education and experience.<br>
+      When I was young and inexperienced I made several attempts at gaining a higher degree, none of them successful.
+    </p>
+
+    <h3>Secondary school degree in Computer Science and Informatics</h3>
+    <em>
+      St-Lodewijk Institute, Antwerp. June 2001
+    </em>
+
+    <hr>
+
+    <h2 id="hobbies">Hobbies</h2>
+    <ul>
+      <li>Robotics &amp; electronics: <a href="http://www.arduino.cc/" target="_blank">Arduino</a>, <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>, <a href="http://wiki.robotmc.org/index.php?title=Hoofdpagina" target="_blank">RobotMC</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Shortwave_radio" target="_blank">Shortwave Radio</a>, <a href="https://en.wikipedia.org/wiki/Software-defined_radio" target="_blank">Software Defined Radio (SDR)</a></li>
+      <li>Remote controlled vehicles: AR Drone</li>
+      <li><a href="http://www.urania.be/" target="_blank">Amateur astronomy</a></li>
+      <li><a href="http://hylawerkgroep.be/" target="_blank">Natural preservation volunteering</a></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="contact">Contact information</h2>
+    <address>
+      Michael Smith<br>
+      E-mail: info at michaelsmith dot be<br>
+      Web: <a href="http://michaelsmith.be" target="_blank">http://michaelsmith.be</a><br>
+      Address: Mechelsesteenweg 472, 2650 Edegem<br>
+      Phone: <a href="tel:+3232912837">+32 (0)3 291 28 37</a><br>
+      Business registration number: 0544.492.870
+    </address>
+    <hr>
+
+    <footer style="text-align: center;">
+      <em>Valid HTML5. Last updated June 5th, 2015.</em>
+    </footer>
   </body>
 </html>
